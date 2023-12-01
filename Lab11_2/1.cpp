@@ -213,6 +213,7 @@ int main()
         print(arr, k);
         break;
     }
-    cin.ignore();
     }
+    cin.ignore();
+    return 0;
 }
