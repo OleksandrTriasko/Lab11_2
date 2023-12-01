@@ -203,7 +203,7 @@ int main()
             if (arr[i] < 0)
             {
                 double temp = arr[i];
-                for (int j = i; j >= n + 1; j--)
+                for (int j = i; j > n; j--)
                     arr[j] = arr[j - 1];
                 arr[n] = temp;
                 n++;
